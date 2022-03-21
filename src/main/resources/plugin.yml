@@ -1,0 +1,23 @@
+name: UnCommand
+version: 1.4
+main: com.github.messycraft.uncommand.bukkit.UnCommand
+author: ImCur_
+api-version: 1.13
+description: Command whitelist and blacklist. (1.13+)
+website: https://github.com/MessyCraft/UnCommand
+
+commands:
+  uncommand:
+    description: Main command.
+    aliases: [ uncmd ]
+
+permissions:
+  uncommand.reload:
+    description: Allow to reload config.
+    default: op
+  uncommand.bypass:
+    description: Allow to ignore any command limits.
+    default: op
+  uncommand.checklimits:
+    description: Allow to see the command limits.
+    default: op

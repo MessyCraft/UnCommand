@@ -1,0 +1,19 @@
+# This file only exist in BungeeCord.
+# This is player whitelist of UnCommand.
+# 这个文件只存在于 BungeeCord。
+# 这是 UnCommand 的玩家白名单。
+
+# e.g.
+lobby:
+  - PlayerA
+  - PlayerB
+
+# e.g.
+(global):
+  - PlayerC
+
+
+# Write like this, PlayerA and PlayerB in SubServer "lobby" can ignore limits of UnCommand(BungeeCord).
+# Write like this, PlayerC in all sub servers can ignore limits of UnCommand(BungeeCord).
+# 像这样写，PlayerA 和 PlayerB 在指定子服 "lobby" 中可以无视 UnCommand(BungeeCord) 的限制。
+# 像这样写，PlayerC 可以在所有子服和 BungeeCord 中无视 UnCommand(BungeeCord) 的限制。

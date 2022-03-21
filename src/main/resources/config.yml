@@ -1,0 +1,53 @@
+# This plugin can be used for Bukkit-server or BungeeCord-server.
+# If this config in your BungeeCord, the settings will take effect on all sub servers and BungeeCord.
+# 这个插件可以用于 Bukkit 服务器和 BungeeCord 服务器。
+# 如果这个配置文件存在于 BungeeCord，那么以下设置将在所有子服务器和 BungeeCord 生效。
+
+# ----------------------------------------[Bukkit]----------------------------------------
+#     If a player has OP, it will ignore these limits.
+#     If you want to let a player ignore these limits, you can give permission "uncommand.bypass".
+#     Plugin command in Bukkit is "/uncmd".
+#     如果一个玩家拥有 OP，那么它将无视这些限制。
+#     如果你希望让一个玩家无视这些限制，你可以给予它权限 "uncommand.bypass"。
+#     本插件在 Bukkit 中命令为 "/uncmd"。
+# ----------------------------------------[Bukkit]----------------------------------------
+
+# ----------------------------------------[BungeeCord]----------------------------------------
+#     If you want to let a player ignore these limits, you must put its name in "pass.yml".
+#     Plugin have no commands in BungeeCord.
+#     如果你希望让一个玩家无视这些限制，你必须将它的名字放在文件 "pass.yml"。
+#     本插件在 BungeeCord 中没有命令。
+# ----------------------------------------[BungeeCord]----------------------------------------
+
+
+# This option selects whether to use the command whitelist or the command blacklist.
+# 这个选项选择了是使用命令白名单还是命令黑名单。
+use: blacklist
+
+# This option is the tip of command failed. Support color character '&'.
+# When this option is "<UNKNOWN>", this tip will be the same as the tip of executing an unknown command.
+# 这个选项是当命令受到该插件拦截时的提示。支持颜色字符 '&'。
+# 当这个选项写 "<UNKNOWN>" 的时候，执行命令受到该插件拦截时的提示将会和执行未知命令的提示一样。
+tip: "&cThe command is banned."
+# It can also be written like this ------ tip: <UNKNOWN>
+# 也可以写成这样 ———— tips: <UNKNOWN>
+
+##### 重要！！！！！！！！！！！！！！！#####
+##### 关于上面选项 tip 的文字兼容问题 #####
+##### 对中国服主们十分抱歉 因为编码问题或者某不知名问题 选项 tip 使用中文(其他语言没测试)会出现各种奇葩的 BUG..#####
+##### 项目开源网址 https://github.com/MessyCraft/UnCommand 欢迎大佬们前来提修正意见！#####
+
+
+# This is command whitelist.
+# 这是命令白名单。
+whitelist:
+  - CmdA
+  - CmdB
+  - CmdC
+
+# This is command blacklist. (Need all aliases of command.)
+# 这是命令黑名单。（需要命令所有的别称。）
+blacklist:
+  - CmdD
+  - CmdE
+  - CmdF
