@@ -1,6 +1,10 @@
-#UnCommand
-####This is a plugin used to restrict players from using commands.
-####This plugin can be used for Bukkit-server or BungeeCord-server.
+<div align=middle>
+    <h1>UnCommand</h1>
+
+<h3>This is a plugin used to restrict players from using commands.</h3>
+</div>
+This plugin can be used for Bukkit-server or BungeeCord-server.
+
 ######Author: ImCur_
 
 ---
