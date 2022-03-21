@@ -5,12 +5,10 @@
 </div>
 This plugin can be used for Bukkit-server or BungeeCord-server.
 
-
-######Author: ImCur_
+(Author: ImCur_)
 
 ---
-
-###Bukkit :
+Bukkit :
 * Commands :
 
 
@@ -36,7 +34,7 @@ This plugin can be used for Bukkit-server or BungeeCord-server.
 
     config.yml
 ---
-###BungeeCord :
+BungeeCord :
 * Commands :
 
 
