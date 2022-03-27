@@ -33,15 +33,15 @@ Bukkit :
 ---
 BungeeCord :
 * Commands :
-
-
+* 
     none
+    
 * Permissions :
 
-    
     none
+    
 * Files:
-
 
     config.yml
     pass.yml
+
