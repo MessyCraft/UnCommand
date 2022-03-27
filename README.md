@@ -33,7 +33,7 @@ Bukkit :
 ---
 BungeeCord :
 * Commands :
-* 
+ 
     none
     
 * Permissions :
