@@ -9,23 +9,23 @@ Bukkit :
 * Commands :
 
 
-    uncommand:
-        description: Main command.
-        aliases: [ uncmd ]
+      uncommand:
+          description: Main command.
+          aliases: [ uncmd ]
 * Permissions:
 
 
-    uncommand.reload:
-        description: Allow to reload config.
-        default: op
+      uncommand.reload:
+          description: Allow to reload config.
+          default: op
 
-    uncommand.bypass:
-        description: Allow to ignore any command limits.
-        default: op
+      uncommand.bypass:
+          description: Allow to ignore any command limits.
+          default: op
 
-    uncommand.checklimits:
-        description: Allow to see the command limits.
-        default: op
+      uncommand.checklimits:
+          description: Allow to see the command limits.
+          default: op
 * Files :
 
 
