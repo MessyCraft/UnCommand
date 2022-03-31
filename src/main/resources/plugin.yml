@@ -1,5 +1,5 @@
 name: UnCommand
-version: 1.4
+version: 1.0
 main: com.github.messycraft.uncommand.bukkit.UnCommand
 author: ImCur_
 api-version: 1.13

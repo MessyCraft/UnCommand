@@ -1,5 +1,5 @@
 name: UnCommand
-version: 1.0.2
+version: 1.0
 author: ImCur_
 main: com.github.messycraft.uncommand.bungee.Main
 description: Command whitelist and blacklist. (BungeeCord)
