@@ -29,7 +29,7 @@ Bukkit :
 * Files :
 
 
-    config.yml
+      config.yml
 ---
 BungeeCord :
 * Commands :
